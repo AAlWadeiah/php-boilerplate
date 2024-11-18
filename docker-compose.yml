@@ -27,7 +27,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: "root"
       MYSQL_DATABASE: "my_local_db"
-      MYSQL_USERNAME: "admin"
+      MYSQL_USER: "admin"
       MYSQL_PASSWORD: "admin"
     ports:
       - 3306:3306
